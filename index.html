@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glamour and Grace Makeover Parlour</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <header>
+            <div class="logo-container">
+                <a href="#"><img src="logo.png" class="logo"></a>
+            </div>
+            <ul>
+                <li><a href="#" onclick="showContent('home')">Home</a></li>
+                <li><a href="#" onclick="showContent('gallery')">Gallery</a></li>
+                <li><a href="#" onclick="showContent('services')">Services</a></li>
+                <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+                <li><a href="#" onclick="showContent('search')">Search</a></li>
+            </ul>
+        </header>
+        <div id="home" class="content">
+            <div class="textBox">
+                <h2>Welcome to<br>The Best Makeover Parlour</h2>
+                <p>Discover the art of beauty and transformation. We offer top-notch makeover services to make you look and feel your best.</p>
+                <p>At Glamour and Grace, we prioritize your comfort and satisfaction.</p>
+                <a href="#" id="learnMoreBtn" onclick="showContent('services')">Explore Our Services</a>
+            </div>
+            <div class="imgBox">
+                <img src="parlour-image.jpg" class="section-image" alt="Home Image">
+            </div>
+        </div>
+        <div id="gallery" class="content" style="display: none;">
+            
+            <p>Explore our stunning makeover transformations captured in our gallery.</p>
+            
+            <div class="gallery-container">
+                <img src="img5.png" class="gallery-image" alt="Gallery Image 5">
+                <img src="img6.png" class="gallery-image" alt="Gallery Image 6">
+                <img src="img7.png" class="gallery-image" alt="Gallery Image 7">
+                <img src="img9.png" class="gallery-image" alt="Gallery Image 9">
+                
+            </div>
+        </div>
+        
+        <!-- Services Section -->
+        <div id="services" class="content" style="display: none;">
+            
+            <h4>Experience a range of makeover services tailored to suit your style and preferences.</h4>
+            
+            <div class="service-item">
+                <img src="hair_styling.jpg" alt="Hair Styling">
+                <h3>Hair Styling</h3>
+            <p>Transform your look with our expert hair styling services.</p>
+            </div>
+        
+            <div class="service-item">
+                <img src="makeup_artistry.jpg" alt="Makeup Artistry">
+                <h3>Makeup Artistry</h3>
+                <p>Discover the art of makeup with our professional makeup artists.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="nail_care.jpg" alt="Nail care">
+                <h3>Nail care</h3>
+                <p>Great nails don’t happen by chance. They happen by appointment.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="facial-treatment.jpg" alt="Facial-treatment">
+                <h3>Facial treatment</h3>
+                <p>Radiate confidence with flawless skin.</p>
+            </div>
+
+            <div class="service-item">
+                <img src="spa-treatment.jpg" alt="Spa-treatment">
+                <h3>Spa treatment</h3>
+                <p>Sometimes you have to just let go and have a spa day.</p>
+            </div>
+        
+            
+            
+            
+            
+        </div>
+        
+        <div id="contact" class="content" style="display: none;">
+            
+            <p>For appointments, inquiries, or any assistance, feel free to get in touch with us:</p>
+            
+            <ul>
+                <li>
+                    <strong>Location:</strong>
+                    <img src="location-icon.png" class="contact-icon" alt="Location Icon">
+                    Wanawadi Pune.
+                </li>
+                <li>
+                    <strong>Phone:</strong>
+                    <img src="phone-icon.png" class="contact-icon" alt="Phone Icon">
+                    846881365
+                </li>
+                <li>
+                    <strong>Email:</strong>
+                    <img src="email-icon.png" class="contact-icon" alt="Email Icon">
+                    summikumari.888@gmail.com
+                </li>
+                <li>
+                    <strong>Follow us on Instagram:</strong>
+                    <img src="instagram-icon.png" class="contact-icon" alt="Instagram Icon">
+                    <a href="https://www.instagram.com/_summi_888?igsh=c3E1enAwNWltbHBl" target="_blank">Instagram</a>
+                </li>
+                <li>
+                    <strong>Connect with me on linkedln:</strong>
+                    <img src="linkedln-icon.png" class="contact-icon" alt="Instagram Icon">
+                    <a href="https://www.linkedin.com/in/summi-kumari-24305928b" target="_blank">linkedln</a>
+                </li>
+                
+            </ul>
+        
+            
+        </div>
+        
+
+
+
+
+        <div id="search" class="content" style="display: none;">
+            
+            <p>Use the search bar below to find what you're looking for:</p>
+        
+            <form action="#" method="GET">
+                <input type="text" name="search" id="searchInput" placeholder="Enter your search query">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+        
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
